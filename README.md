@@ -1,7 +1,7 @@
 # Express Router + Controller
 
 - Easy to implement
-- Easy to maintanance
+- Easy to maintain
 - Easy to develop
 
 clone this repository and install requirement using npm :
@@ -162,3 +162,7 @@ and then go to terminal and try to run by typing `yarn dev` , you will see :
 ```sh
 Server running at http://localhost:9090
 ```
+
+## Reference :
+1. [Routing With NodeJs (Express)](https://medium.com/@cmpbilge/routing-with-nodejs-express-4ce79752e146)
+2. [API Development and Routing with Node.js and Express](https://alligator.io/nodejs/express-routing/)

@@ -163,6 +163,19 @@ and then go to terminal and try to run by typing `yarn dev` , you will see :
 Server running at http://localhost:9090
 ```
 
+## API Endpoints
+
+### /api/v1/books
+
+| Endpoint            | HTTP   | Description       | Body             |
+| ------------------- | ------ | ----------------- | ---------------- |
+| `/api/v1/books/`    | POST   | Create New Book   | `title`,`author` |
+| `/api/v1/books/`    | GET    | Get All Book      |                  |
+| `/api/v1/books/:id` | GET    | Get Book By Id    |                  |
+| `/api/v1/books/:id` | PUT    | Update Book By Id | `title`,`author` |
+| `/api/v1/books/:id` | DELETE | Delete Book By Id |                  |
+
 ## Reference :
+
 1. [Routing With NodeJs (Express)](https://medium.com/@cmpbilge/routing-with-nodejs-express-4ce79752e146)
 2. [API Development and Routing with Node.js and Express](https://alligator.io/nodejs/express-routing/)

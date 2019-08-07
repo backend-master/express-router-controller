@@ -15,6 +15,17 @@ or using yarn :
 ```sh
 yarn
 ```
+## API Endpoints
+
+### /api/v1/books
+
+| Endpoint            | HTTP   | Description       | Body             |
+| ------------------- | ------ | ----------------- | ---------------- |
+| `/api/v1/books/`    | POST   | Create New Book   | `title`,`author` |
+| `/api/v1/books/`    | GET    | Get All Book      |                  |
+| `/api/v1/books/:id` | GET    | Get Book By Id    |                  |
+| `/api/v1/books/:id` | PUT    | Update Book By Id | `title`,`author` |
+| `/api/v1/books/:id` | DELETE | Delete Book By Id |                  |
 
 This project structure will be like this :
 
@@ -162,18 +173,6 @@ and then go to terminal and try to run by typing `yarn dev` , you will see :
 ```sh
 Server running at http://localhost:9090
 ```
-
-## API Endpoints
-
-### /api/v1/books
-
-| Endpoint            | HTTP   | Description       | Body             |
-| ------------------- | ------ | ----------------- | ---------------- |
-| `/api/v1/books/`    | POST   | Create New Book   | `title`,`author` |
-| `/api/v1/books/`    | GET    | Get All Book      |                  |
-| `/api/v1/books/:id` | GET    | Get Book By Id    |                  |
-| `/api/v1/books/:id` | PUT    | Update Book By Id | `title`,`author` |
-| `/api/v1/books/:id` | DELETE | Delete Book By Id |                  |
 
 ## Reference :
 
